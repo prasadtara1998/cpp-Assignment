@@ -1,3 +1,5 @@
+//Objective : To find area and volume
+
 #include <iostream>
 using namespace std;
 class Measure {
