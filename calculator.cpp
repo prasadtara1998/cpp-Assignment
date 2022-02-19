@@ -1,3 +1,5 @@
+//Objective : To make a calculator
+
 #include <iostream>
 using namespace std;
 class Calculator {
@@ -9,6 +11,7 @@ public:
         cout << "Enter Second Number: ";
         cin >> B;
     }
+//all Functions for arithmetic operations
     int add() {
         return A + B;
     }
@@ -36,11 +39,13 @@ int Calculator :: sub()
 int main()
 {
     int choice;
+	//Class-Calculator, & Object- obj
     Calculator obj;
     cout << "1.Addition\n"<<"2.Subtraction\n"<<"3.Multiplication\n"<<"4.Division\n";
 	cin >> choice;
 	switch (choice)
 	{
+			//calling object from class calculator
 	case 1:
 	    obj.input();
 	    cout << "Result: " << obj.add() << endl;
