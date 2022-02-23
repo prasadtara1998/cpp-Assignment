@@ -151,7 +151,7 @@ int main()
 	c3 = c1 % c2;
 	c3.display();
 
-	cout << "exponential:"<<endl;
+	cout << "increment:"<<endl;
 	c3 = (c1 == c2);
 	c3.display();
 
